@@ -2,11 +2,13 @@
 
 ###(Encrypt-R-us)
 
-![](https://github.com/rdjong/pinklog/raw/master/scrot.png)
+---
+
+[![](https://img.shields.io/badge/rick-approved-ff69b4.svg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 seCrypt (Encrypt-R-us) Eindopdracht voor Sec2 week3
 
---
+---
 
 usage:
 
