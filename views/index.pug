@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  .mdl-textfield.mdl-js-textfield
+    input#name.mdl-textfield__input(type="text")
+    label.mdl-textfield__label(for='name') Name
+  br
+  .mdl-textfield.mdl-js-textfield
+    input#password.mdl-textfield__input(type="password")
+    label.mdl-textfield__label(for='password') Password
+  br
+  .mdl-textfield.mdl-js-textfield
+   textarea#message.mdl-textfield__input(type='text', rows='5')
+   label.mdl-textfield__label(for='message') Your secret message...
+  br
+  button.mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--accent.btnencode
+    | encode
+  br
+  br
+  button.mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--accent.btndecode
+    | decode

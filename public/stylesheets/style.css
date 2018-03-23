@@ -1,0 +1,12 @@
+body {
+  padding: 50px;
+  background-color: rgb(221, 218, 213);
+}
+
+a {
+  color: #00B7FF;
+}
+
+.mdl-textfield__input {
+    background-color: white !important;
+}
